@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  pyinstaller:
+    image: cdrx/pyinstaller-windows
+    volumes:
+      - .:/src
+    entrypoint: /bin/sh
+    command: -c "/usr/bin/pip install -r /src/requirements.txt && pyinstaller /src/main.py --onefile --clean"

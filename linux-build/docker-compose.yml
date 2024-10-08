@@ -1,0 +1,8 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  pyinstaller:
+    build: .
+    volumes:
+      - ./dist:/app/dist

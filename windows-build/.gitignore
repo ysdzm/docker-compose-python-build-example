@@ -1,0 +1,29 @@
+# Pythonのキャッシュファイル
+__pycache__/
+*.py[cod]
+
+# PyInstallerで生成されたファイル
+build/
+dist/
+*.spec
+
+# 環境依存のファイル
+.env
+.venv/
+venv/
+env/
+
+# IDEの設定ファイル
+*.idea/
+*.vscode/
+
+# OSの特定ファイル
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebookのチェックポイント
+.ipynb_checkpoints/
+
+# その他
+*.log
+*.egg-info/
