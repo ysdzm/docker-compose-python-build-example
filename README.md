@@ -2,8 +2,8 @@
 
 docker-composeでpythonを実行ファイルにするサンプル
 
-- linux-build：Linux環境用のdocker-compose設定
-- windows-build/：Windows環境用のdocker-compose設定
+- `linux-build/`：Linux環境用のdocker-compose設定
+- `windows-build/`：Windows環境用のdocker-compose設定
 
 ## Usage
 
