@@ -16,5 +16,5 @@ WORKDIR /app
 # スクリプトをコンテナにコピー
 COPY main.py .
 
-# PyInstallerを実行してexeファイルを作成し、その後にexeファイルを実行
-CMD ["sh", "-c", "pyinstaller --onefile main.py && ls -l ./dist && ./dist/main"]
+# PyInstallerを実行してexeファイルを作成
+CMD ["sh", "-c", "pyinstaller --onefile main.py && ls -l ./dist"]
